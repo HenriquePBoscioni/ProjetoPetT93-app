@@ -28,7 +28,8 @@ class adocoes extends Model
         'dt_inicio_pa',
         'dt_devolucao',
         'descricao',
-        'observacao'
+        'observacao',
+        'gustavo'
     ];
 
 }
