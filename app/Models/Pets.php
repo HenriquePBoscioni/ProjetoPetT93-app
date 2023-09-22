@@ -25,4 +25,6 @@ class Pets extends Model
         'idade',
         'descricao'
     ];
+
+
 }
