@@ -8,6 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class historico_cliente extends Model
 {
     use HasFactory;
-    use HasFactory;
-
 }
