@@ -1,7 +1,7 @@
 
 <?php
 
-namespace App\Models;
+
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -41,4 +41,4 @@ class HistoricoAdocao extends Model
         return $this->belongsTo(adocoes::class, 'id_adocao', 'id_adocao');
     }
 }
->>>>>>> Rafael
+
