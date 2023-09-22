@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use illuminate\Database\Eloquent\SoftDeletes;
 
 
@@ -25,6 +26,21 @@ class Pets extends Model
         'idade',
         'descricao'
     ];
+
+    public function Portes(): BelongsTo
+    {
+        return $this->belongsTo(Portes::class, 'id_pet', 'id_pet');
+    }
+
+    public function Cores(): BelongsTo
+    {
+        return $this->belongsTo(Portes::class, 'id_pet', 'id_pet');
+    }
+
+    public function GenerosPets(): BelongsTo
+    {
+        return $this->belongsTo(Portes::class, 'id_pet', 'id_pet');
+    }
 
 
 }
