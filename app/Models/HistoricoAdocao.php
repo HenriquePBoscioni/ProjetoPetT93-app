@@ -19,6 +19,7 @@ class HistoricoAdocao extends Model
         'created_at',
         'update_at',
         'deleted_at',
+        'deleted_at',
 
     ];
     protected $fillabel = [
