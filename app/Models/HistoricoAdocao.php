@@ -13,17 +13,17 @@ class HistoricoAdocao extends Model
 {
     use HasFactory , SoftDeletes;
 
-    protected $table = 'historico_adocao';
-    protected $primarykey = 'id_historico_adocao';
+    protected $table = 'HistoricoAdocao';
+    protected $primarykey = 'id_HistoricoAdocao';
     protected $dates = [
         'created_at',
         'update_at',
         'deleted_at',
-        
+
 
     ];
     protected $fillabel = [
-        'id_historico_adocacao',
+        'id_HistoricoAdocacao',
         'id_adocao',
         'dt',
         'historico'
