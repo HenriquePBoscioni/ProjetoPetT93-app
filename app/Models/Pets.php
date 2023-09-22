@@ -13,4 +13,16 @@ class Pets extends Model
 
     protected $table = 'Pets';
     protected $primaryKey = 'id_pet';
+    protected $dates = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+    ];
+    protected $fillabel =
+    [
+        'id_pet',
+        'nome',
+        'idade',
+        'descricao'
+    ];
 }
