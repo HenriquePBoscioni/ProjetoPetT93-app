@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class historico_adocao extends Model
 {
     use HasFactory;
+    use HasFactory;
 }
