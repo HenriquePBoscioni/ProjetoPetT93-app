@@ -41,4 +41,4 @@ class HistoricoAdocao extends Model
         return $this->belongsTo(adocoes::class, 'id_adocao', 'id_adocao');
     }
 }
->>>>>>> Rafael
+
