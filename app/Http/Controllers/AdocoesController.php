@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\adocoes;
+use App\Models\Adocoes;
 use Illuminate\Http\Request;
 
 class AdocoesController extends Controller
@@ -34,7 +34,7 @@ class AdocoesController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(adocoes $adocoes)
+    public function show(Adocoes $Adocoes)
     {
         //
     }
@@ -42,7 +42,7 @@ class AdocoesController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(adocoes $adocoes)
+    public function edit(Adocoes $Adocoes)
     {
         //
     }
@@ -50,7 +50,7 @@ class AdocoesController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, adocoes $adocoes)
+    public function update(Request $request, Adocoes $Adocoes)
     {
         //
     }
@@ -58,7 +58,7 @@ class AdocoesController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(adocoes $adocoes)
+    public function destroy(Adocoes $Adocoes)
     {
         //
     }

@@ -6,11 +6,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class adocoes extends Model
+class Adocoes extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $table = 'adocoes';
+    protected $table = 'Adocoes';
     protected $primaryKey = 'id_adocao';
     protected $dates = [
         'created_at',
