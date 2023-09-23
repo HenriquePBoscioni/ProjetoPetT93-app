@@ -29,6 +29,7 @@ class Adocoes extends Model
         'dt_devolucao',
         'descricao',
         'observacao'
+        //
     ];
 
 }
