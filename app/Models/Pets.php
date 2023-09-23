@@ -10,7 +10,7 @@ use illuminate\Database\Eloquent\SoftDeletes;
 
 class Pets extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
 
     protected $table = 'Pets';
     protected $primaryKey = 'id_pet';
