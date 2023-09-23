@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-use App\Models\adocoes;
+use App\Models\Adocoes;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class HistoricoAdocao extends Model
@@ -38,7 +38,7 @@ class HistoricoAdocao extends Model
      */
     public function adocao(): BelongsTo
     {
-        return $this->belongsTo(adocoes::class, 'id_adocao', 'id_adocao');
+        return $this->belongsTo(Adocoes::class, 'id_adocao', 'id_adocao');
     }
 }
 
