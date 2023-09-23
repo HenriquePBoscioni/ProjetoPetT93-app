@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class generosPets extends Model
 {
     use HasFactory;
+    //
 }
