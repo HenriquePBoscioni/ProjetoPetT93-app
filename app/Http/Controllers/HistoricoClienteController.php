@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\historico_cliente;
+use App\Models\historico_Cliente;
 use Illuminate\Http\Request;
 
 class HistoricoClienteController extends Controller
@@ -34,7 +34,7 @@ class HistoricoClienteController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(historico_cliente $historico_cliente)
+    public function show(historico_Cliente $historico_Cliente)
     {
         //
     }
@@ -42,7 +42,7 @@ class HistoricoClienteController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(historico_cliente $historico_cliente)
+    public function edit(historico_Cliente $historico_Cliente)
     {
         //
     }
@@ -50,7 +50,7 @@ class HistoricoClienteController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, historico_cliente $historico_cliente)
+    public function update(Request $request, historico_Cliente $historico_Cliente)
     {
         //
     }
@@ -58,7 +58,7 @@ class HistoricoClienteController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(historico_cliente $historico_cliente)
+    public function destroy(historico_Cliente $historico_Cliente)
     {
         //
     }
