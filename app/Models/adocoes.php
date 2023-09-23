@@ -23,7 +23,7 @@ class adocoes extends Model
     protected $fillabel = [
         'id_cliente',
         'id_pet',
-        'id_status',
+        'id_Status',
         'dt_inicio',
         'dt_inicio_pa',
         'dt_devolucao',

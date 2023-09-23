@@ -10,7 +10,10 @@ class Status extends Model
     use HasFactory;
 
     protected $table = 'Status';
-    protected $primarykey = 'id_status';
+    protected $primarykey = 'id_Status';
+    protected $date =[
+
+    ];
 
 
 }
